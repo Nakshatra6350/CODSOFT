@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d8d8d8;
+}
+
+body{
+    font-size: 16px;
+    width: 95%;
+    margin: 60px auto;
+    border: none;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.logo{
+   height: 90px;
+}
+
+
+.inner{
+    width: 80%;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .inner nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header .inner nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+header .inner nav ul li a:hover{
+    background-color: rgb(126, 122, 122);
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#cover {
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+#cover .left h1{
+    font-size: 5rem;
+    font-weight:bold;
+    margin-bottom: 20px;
+}
+
+#cover .left p{
+    font-size: 1.3rem;
+    font-weight:lighter;
+    margin-bottom: 30px;
+}
+
+#cover .left form input[type=submit]{
+    width: 50%;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+#cover .left form input[type=submit]:hover{
+    background-color:  rgb(126, 122, 122);
+    color: white;
+    cursor: pointer;
+}
+
+#cover .left form i{
+   padding-left: 10px;
+   font-size: 40px;
+   
+}
+#cover .left form i:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+#cover .left .image{
+    box-sizing: border-box;
+}
